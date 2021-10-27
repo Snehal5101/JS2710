@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body >
+    <section class="container text-center m-10 p-5 bg-dark text-light">
+      <div id="input" class="container m-10 p-7"> 
+          <input type="number" id="value1" value="" onchange="change1(event)" placeholder="enter 1st value " />
+          <input type="number" id="value2" value="" onchange="change2(event)" placeholder="enter 2nd value " />
+     <br>
+          <button onclick="addition()">Add</button>
+            <button onclick="substraction()">Sub</button>
+            <button onclick="multiplication()">Mult</button>
+            <button onclick="division()">div</button>
+        </div>
+
+      <div id="output" > 
+          <h4 id="add">addition</h4>
+          <h4 id="sub">substraction</h4>
+          <h4 id="mult">multiplication</h4>
+          <h4 id="div">division</h4>
+    </div>
+    </section>
+
+    <section id ="data2" class="container text-center m-10 p-5">
+     <div>
+        <input type="number" id="1" value="" onchange="firstchange(event)" placeholder="enter 1st value " />
+        <input type="number" id="2" value="" onchange="secondchange(event)" placeholder="enter 2nd value " />
+  
+        <button id="addition">Add</button>
+        <button id="substraction">Sub</button>
+        <button id="multiplication">Mult</button>
+        <button id="division">div</button>
+    </div>
+<div class="container m-10 p-5">
+    <a href="" class="add">addition</a>
+    <a href="" class="sub">substraction</a>
+    <a href="" class="mult">multiplication
+        <a href="" class="div">division</a>
+    </a>
+</div>>
+
+    </section>
+   
+   
+    <script src="./app.js"></script>
+</body>
+</html>
